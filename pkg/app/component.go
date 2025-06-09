@@ -7,10 +7,10 @@ import (
 	"github.com/go-redis/redis/v8"
 	"github.com/olivere/elastic/v7"
 	"github.com/zutim/mongo"
+	"github.com/zutim/mytools/pkg/dbmanager"
+	"github.com/zutim/mytools/pkg/log2"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
-	"mytool3/pkg/dbmanager"
-	"mytool3/pkg/log2"
 	"path/filepath"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/IBM/sarama"
-	"mytool3/pkg/app"
-	"mytool3/pkg/config"
+	"github.com/zutim/mytools/pkg/app"
+	"github.com/zutim/mytools/pkg/config"
 )
 
 func main() {

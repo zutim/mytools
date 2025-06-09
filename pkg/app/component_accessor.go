@@ -3,7 +3,7 @@ package app
 
 import (
 	"fmt"
-	"mytool3/pkg/dbmanager"
+	"github.com/zutim/mytools/pkg/dbmanager"
 )
 
 // ComponentAccessor 泛型封装，用于访问任意类型的组件

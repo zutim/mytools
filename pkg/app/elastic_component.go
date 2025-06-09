@@ -4,7 +4,7 @@ package app
 import (
 	"fmt"
 	"github.com/olivere/elastic/v7"
-	"mytool3/pkg/config"
+	"github.com/zutim/mytools/pkg/config"
 	"sync"
 	"time"
 )

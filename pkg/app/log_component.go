@@ -2,7 +2,7 @@
 package app
 
 import (
-	"mytool3/pkg/log2"
+	"github.com/zutim/mytools/pkg/log2"
 	"os"
 	"path/filepath"
 )

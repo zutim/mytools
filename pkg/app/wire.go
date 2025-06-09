@@ -6,7 +6,7 @@
 package app
 
 import (
-	"mytool3/pkg/config"
+	"github.com/zutim/mytools/pkg/config"
 )
 
 // InitializeApp 使用 wire 构建 App 实例

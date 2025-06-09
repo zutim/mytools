@@ -3,11 +3,11 @@ package main
 
 import (
 	"context"
+	"github.com/zutim/mytools/pkg/app"
+	"github.com/zutim/mytools/pkg/config"
+	"github.com/zutim/mytools/pkg/log2"
 	"gorm.io/gorm/logger"
 	"log"
-	"mytool3/pkg/app"
-	"mytool3/pkg/config"
-	"mytool3/pkg/log2"
 	"os"
 	"time"
 )

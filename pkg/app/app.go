@@ -3,7 +3,7 @@ package app
 
 import (
 	"fmt"
-	"mytool3/pkg/config"
+	"github.com/zutim/mytools/pkg/config"
 	"sync"
 )
 
