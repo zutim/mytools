@@ -56,7 +56,7 @@ func main() {
 			Elastic: config.ElasticGlobalConfig{
 				MaxRetries: 3,
 				ElasticConnConfig: config.ElasticConnConfig{
-					Hosts:    []string{"https://staging-api-cm.onebet.ug/elasticsearch_server"},
+					Hosts:    []string{""},
 					Username: "elastic",
 					Password: "password",
 				},
@@ -72,8 +72,8 @@ func main() {
 					DB:   1,
 				},
 				Mongo: config.MongoTenantConfig{
-					URI: "mongodb://47.91.87.244:30600",
-					DB:  "onebetci",
+					URI: "",
+					DB:  "",
 				},
 				Kafka: config.KafkaTenantConfig{
 					Brokers: []string{"localhost:9092"},
