@@ -1,4 +1,4 @@
-module mytool3
+module github.com/zutim/mytools
 
 go 1.24.1
 
